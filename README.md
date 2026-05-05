@@ -1,4 +1,4 @@
-Network Sniffing Lab - HTTP vs HTTPS
+Network Sniffing Lab - HTTP e HTTPS
 
 Obiettivo
 Analizzare il traffico di rete per evidenziare le differenze tra protocollo HTTP e HTTPS utilizzando Wireshark e InetSim.
@@ -21,12 +21,12 @@ Configurazione
  Analisi traffico
 
 HTTP
-- Protocollo: HTTP (porta 80)
+- Protocollo: HTTP 
 - Contenuto visibile:
 - GET / HTTP/1.1
 - Host: epicode.internal
 - User-Agent, Accept, ecc.
-- I dati sono **in chiaro**
+- I dati sono in chiaro
 
 Questo significa che chi sniffa la rete può leggere tutto.
 
@@ -44,7 +44,7 @@ I dati NON sono leggibili → sono cifrati
  Differenza chiave
 
 | HTTP | HTTPS |
-|------|------|
+
 | Dati in chiaro | Dati criptati |
 | Leggibile con Wireshark | Non leggibile |
 | Nessuna sicurezza | Sicuro |
